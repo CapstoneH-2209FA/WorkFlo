@@ -154,7 +154,7 @@ function Project() {
         </span>
         <Drawer />
         <div className="Title">
-          <h2>{projects.selectedProject?.title}</h2>
+          {<h2>{projects.selectedProject?.title}</h2>}
         </div>
       </div>
       <div>
@@ -166,7 +166,7 @@ function Project() {
                 {...provided.droppableProps}
                 ref={provided.innerRef}
               >
-                {lists.length &&
+                {lists.length > 0 &&
                   lists.map((list, index) => {
                     return (
                       <List
