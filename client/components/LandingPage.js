@@ -63,5 +63,6 @@ const Box = styled.div`
   filter: drop-shadow(10px 10px 4px black);
   width: 50vw;
   margin-bottom: 20px;
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201030/pngtree-blue-water-flow-like-a-river-image_447481.jpg");
+  background-image: url("/images/flo.jpeg");
+  background-size: cover;
 `;
